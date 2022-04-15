@@ -1,12 +1,12 @@
 # Default tags
 output "default_tags" {
   value = {
-    "Owner" = "Irina"
+    "Owner" = "Shajaini"
     "App"   = "Web"
   }
 }
 
 # Prefix to identify resources
 output "prefix" {
-  value     = "week5"
+  value     = "final"
 }

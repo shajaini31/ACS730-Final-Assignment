@@ -6,6 +6,7 @@ module "vpc-dev" {
   env                 = var.env
   vpc_cidr            = var.vpc_cidr
   private_cidr_blocks = var.public_subnet_cidrs
+  private_cidr_blocks = var.private_cidr_blocks
   prefix              = var.prefix
   default_tags        = var.default_tags
 }
